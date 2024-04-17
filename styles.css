@@ -14,7 +14,7 @@
 .card {
     width: 51px;
     height: 37px;
-    background-image: url(../images/back.png);
+    background-image: url(images/back.png);
     border: 1px solid #000;
     text-align: center;
     line-height: 50px;
@@ -43,7 +43,7 @@
 }
 
 .neighbor {
-    background-image: url(../images/5n.png);
+    background-image: url(images/5n.png);
 }
 
 .hand-card:first-child {
@@ -53,32 +53,32 @@
 
 .hand-card[data-symbol="1"],
 .revealed[data-symbol="1"] {
-    background-image: url(../images/1.png);
+    background-image: url(images/1.png);
 }
 
 .hand-card[data-symbol="2"],
 .revealed[data-symbol="2"] {
-    background-image: url(../images/2.png);
+    background-image: url(images/2.png);
 }
 
 .hand-card[data-symbol="3"],
 .revealed[data-symbol="3"] {
-    background-image: url(../images/3.png);
+    background-image: url(images/3.png);
 }
 
 .hand-card[data-symbol="4"],
 .revealed[data-symbol="4"] {
-    background-image: url(../images/4.png);
+    background-image: url(images/4.png);
 }
 
 .hand-card[data-symbol="5"],
 .revealed[data-symbol="5"] {
-    background-image: url(../images/5.png);
+    background-image: url(images/5.png);
 }
 
 .hand-card[data-symbol="K"],
 .revealed[data-symbol="K"] {
-    background-image: url(../images/K.png);
+    background-image: url(images/K.png);
 }
 
 footer {
