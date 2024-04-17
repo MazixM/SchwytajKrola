@@ -1,0 +1,106 @@
+#board {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 51px);
+    grid-template-rows: repeat(5, 37px);
+    margin-bottom: 20px;
+}
+
+#score {
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    width: 51px;
+    height: 37px;
+    background-image: url(../images/back.png);
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.revealed {
+    background-color: #fff;
+}
+
+#hand {
+    display: flex;
+    justify-content: center;
+}
+
+.hand-card {
+    width: 51px;
+    height: 37px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    margin-right: 1px;
+    transform: scale(1)
+}
+
+.neighbor {
+    background-image: url(../images/5n.png);
+}
+
+.hand-card:first-child {
+    transform: scale(1.5);
+    margin-right: 20px;
+}
+
+.hand-card[data-symbol="1"],
+.revealed[data-symbol="1"] {
+    background-image: url(../images/1.png);
+}
+
+.hand-card[data-symbol="2"],
+.revealed[data-symbol="2"] {
+    background-image: url(../images/2.png);
+}
+
+.hand-card[data-symbol="3"],
+.revealed[data-symbol="3"] {
+    background-image: url(../images/3.png);
+}
+
+.hand-card[data-symbol="4"],
+.revealed[data-symbol="4"] {
+    background-image: url(../images/4.png);
+}
+
+.hand-card[data-symbol="5"],
+.revealed[data-symbol="5"] {
+    background-image: url(../images/5.png);
+}
+
+.hand-card[data-symbol="K"],
+.revealed[data-symbol="K"] {
+    background-image: url(../images/K.png);
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.social-icons img {
+    display: inline-block;
+    justify-content: center;
+    width: 30px; /* Dostosuj szerokość ikon */
+    height: auto; /* Pozwól wysokościę automatycznie dostosować się do proporcji obrazka */
+    margin: 0 10px; /* Dodaj odstęp między ikonkami */
+  }
+  
